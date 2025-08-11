@@ -15,7 +15,7 @@ public class DragAndDrop extends Base{
 		Actions actions = new Actions(driver);
 		
 		//actions.moveToElement(draggable1).doubleClick().perform();
-		actions.moveToElement(draggable1).click();
+		//actions.moveToElement(draggable1).click().perform();
 		//actions.doubleClick(draggable1).perform();
 		
 		WebElement dropzone = driver.findElement(By.xpath("//div[@id='mydropzone']"));
